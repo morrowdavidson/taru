@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import Logo from "../images/Logo.svg"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -12,7 +13,7 @@ const IndexPage = () => (
       <Image />
     </div>
     <div style={{display:'block', position: 'relative', top: '-150px', marginLeft: 'auto', marginRight: 'auto', width:'190px'}} >
-    <img src='Logo.png'/>
+      <img src={Logo} />
     <p style={{display:'block', position: 'relative', left:'25px', top: '-30px'}}>Coming soon...</p>
     </div>
   </Layout>
