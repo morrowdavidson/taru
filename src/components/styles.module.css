@@ -1,0 +1,32 @@
+.logoContainer {
+  display: block;
+  position: relative;
+  top: 30px; 
+  margin-left: auto;
+  margin-right: auto; 
+  width:190px;
+}
+.comingSoon {
+  display: block;
+  position: relative;
+  left: 25px;
+  top: -30px;
+  font-family: sans-serif;
+  color: #356898;
+}
+.fakeNav {
+  display:block;
+  background-color: #356898;
+  height: 1px;
+  padding: 20px;
+}
+.backgroundImage {
+  margin-top:25vh;
+}
+.fakeNav p {
+  color:#FFF;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: .9em;
+  margin-top: -10px;
+}

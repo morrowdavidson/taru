@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-      <div style={{ minWidth: '600px'}}>
+      <div style={{ minWidth: '400px'}}>
           <main>{children}</main>
       </div>
       </>
